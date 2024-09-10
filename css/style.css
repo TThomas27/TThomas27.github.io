@@ -6,335 +6,335 @@ body {
 
 /* Header */
 nav {
-    display: flex;                       /* Make nav a flex container */
-    justify-content: space-between;      /* Separate items to the left and right */
-    align-items: center;                 /* Center items vertically */
-    background-color: #1bbaebc9;         /* Custom background color */
-    color: #000000;                      /* Text color */
-    padding: 10px 15px;                  /* Add padding around nav */
-    font-size: 20px;                     /* Set font size */
-    border-bottom: 2px solid #013b5f;    /* Add a subtle border at the bottom */
+    display: flex;                       
+    justify-content: space-between;      
+    align-items: center;                 
+    background-color: #1bbaebc9;         
+    color: #000000;                      
+    padding: 10px 15px;                  
+    font-size: 20px;                     
+    border-bottom: 2px solid #013b5f;    
 }
 
 nav .name {
-    margin: 0;                           /* Remove default margin */
-    color: #000000;                      /* Text color for the name */
+    margin: 0;                           
+    color: #000000;                     
 }
 
 nav .contact-link {
-    margin: 0;                           /* Remove default margin */
+    margin: 0;                          
 }
 
 nav .contact-link a {
-    color: #000000;                      /* Text color for the link */
-    text-decoration: none;               /* Remove underline from link */
+    color: #000000;                      
+    text-decoration: none;               
 }
 
 nav .contact-link a:hover {
-    text-decoration: underline;          /* Add underline on hover for the link */
+    text-decoration: underline;          
 }
 
 /* Footer */
 footer {
-    display: flex;                       /* Make footer a flex container */
-    justify-content: center;             /* Center children horizontally */
-    align-items: center;                 /* Center children vertically */
-    background-color: #013b5f;           /* Different background color */
-    color: #fff;                         /* White text color */
-    padding: 15px 20px;                  /* Add some padding */
-    border-top: 2px solid #1bbaebc9;     /* Add a subtle border at the top */
+    display: flex;                     
+    justify-content: center;             
+    align-items: center;                 
+    background-color: #013b5f;           
+    color: #fff;                         
+    padding: 15px 20px;                  
+    border-top: 2px solid #1bbaebc9;     
 }
 
 footer p {
-    margin: 0 10px;                      /* Space out footer items */
+    margin: 0 10px;                      
 }
 
 footer a {
-    color: #fff;                         /* Link color */
-    text-decoration: none;               /* Remove underline from links */
+    color: #fff;                         
+    text-decoration: none;              
 }
 
 footer a:hover {
-    text-decoration: underline;          /* Add underline on hover for links */
+    text-decoration: underline;          
 }
 
 /* Splash */
 /* Importing Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap'); /* Change font as desired */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
 
 .splash {
-    display: flex;                       /* Flex layout */
-    flex-direction: column;              /* Stack items vertically */
-    align-items: center;                 /* Center items horizontally */
-    justify-content: center;             /* Center items vertically */
-    height: 100vh;                       /* Full viewport height */
-    background: linear-gradient(135deg, #1bbaeb, #013b5f); /* Gradient background */
-    color: #ffffff;                      /* White text color for contrast */
-    text-align: center;                  /* Center-align text */
-    padding: 20px;                       /* Padding around the section */
+    display: flex;                      
+    flex-direction: column;             
+    align-items: center;                 
+    justify-content: center;            
+    height: 100vh;                       
+    background: linear-gradient(135deg, #1bbaeb, #013b5f); 
+    color: #ffffff;                      
+    text-align: center;                 
+    padding: 20px;                      
 }
 
 .splash h1 {
-    font-family: 'Roboto', sans-serif;   /* Applying Google Font */
-    font-size: 3.5rem;                   /* Large heading size */
-    color: #ffcc00;                      /* Custom color number for emphasis */
-    margin-bottom: 20px;                 /* Space below heading */
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Text shadow for depth */
+    font-family: 'Roboto', sans-serif;   
+    font-size: 3.5rem;                   
+    color: #ffcc00;                      
+    margin-bottom: 20px;                 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
 }
 
 .splash img {
-    width: 150px;                        /* Set image size */
-    height: 150px;                       /* Maintain aspect ratio */
-    border-radius: 50%;                  /* Circular image style */
-    border: 5px solid #ffffff;           /* White border around image */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Shadow to give pop-out effect */
-    margin-bottom: 15px;                 /* Space below the image */
+    width: 150px;                       
+    height: 150px;                       
+    border-radius: 50%;                 
+    border: 5px solid #ffffff;         
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    margin-bottom: 15px;                
 }
 
-.splash p:first-of-type {               /* Address Paragraph */
-    font-size: 1rem;                     /* Standard font size */
-    color: #f0f0f0;                      /* Slightly lighter text color */
-    margin: 10px 0;                      /* Space above and below paragraph */
-    font-style: italic;                  /* Italicize to differentiate */
+.splash p:first-of-type {              
+    font-size: 1rem;                    
+    color: #f0f0f0;                     
+    margin: 10px 0;                     
+    font-style: italic;                 
 }
 
-.splash p:last-of-type {                /* Tag Line Paragraph */
-    max-width: 600px;                    /* Limit width for readability */
-    font-size: 1.2rem;                   /* Slightly larger font size */
-    color: #ffffff;                      /* Maintain white text for readability */
-    line-height: 1.6;                    /* Comfortable line spacing */
-    margin: 10px 0;                      /* Space above and below text */
-    font-weight: 300;                    /* Light font weight for a softer look */
+.splash p:last-of-type {               
+    max-width: 600px;                    
+    font-size: 1.2rem;                   
+    color: #ffffff;                      
+    line-height: 1.6;                    
+    margin: 10px 0;                      
+    font-weight: 300;                  
 }
 
 /* Border */
 hr {
-    border: none;                        /* Remove default border */
-    border-top: 3px solid #013b5f;       /* Set the top border with custom color */
-    border-radius: 5px;                  /* Add rounded corners to the border */
-    width: 80%;                          /* Set the width of the hr element */
-    margin: 20px auto;                   /* Center it with margin adjustments */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for depth */
+    border: none;                        
+    border-top: 3px solid #013b5f;       
+    border-radius: 5px;                 
+    width: 80%;                         
+    margin: 20px auto;                   
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
 }
 
 /* H2 */
 /* Import Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap'); /* Softer weight for a refined look */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap'); 
 
 section h2 {
-    font-family: 'Lora', serif;          /* Applying Google Font with lighter weight */
-    font-size: 1.5rem;                   /* Smaller, more subtle font size */
-    color: #34495e;                      /* Softer dark blue-gray color */
-    margin-bottom: 10px;                 /* Slightly reduced margin */
-    border-bottom: 1px solid #bdc3c7;    /* Light border to separate heading subtly */
-    padding-bottom: 5px;                 /* Padding to add spacing */
-    letter-spacing: 0.5px;               /* Slightly increased letter spacing */
-    font-weight: 500;                    /* Medium font weight for readability */
+    font-family: 'Lora', serif;         
+    font-size: 1.5rem;                  
+    color: #34495e;                     
+    margin-bottom: 10px;                
+    border-bottom: 1px solid #bdc3c7;    
+    padding-bottom: 5px;                
+    letter-spacing: 0.5px;              
+    font-weight: 500;                   
 }
 
 /* Education Paragraph Styling */
 .education-details {
-    padding: 10px 15px;                  /* Add padding for readability */
-    margin-bottom: 20px;                 /* Space below the section */
-    font-size: 0.95rem;                  /* Slightly smaller font for secondary details */
-    line-height: 1.6;                    /* Improved line spacing for readability */
-    color: #333;                         /* Dark gray text color */
+    padding: 10px 15px;                 
+    margin-bottom: 20px;                 
+    font-size: 0.95rem;                  
+    line-height: 1.6;                    
+    color: #333;                         
 }
 
 .education-details p {
-    margin: 5px 0;                       /* Spacing between paragraphs */
+    margin: 5px 0;                       
 }
 
 /* Unordered List Styling */
 ul {
-    list-style-type: square;             /* Change bullet style to square */
-    padding-left: 20px;                  /* Adjust padding for bullets */
-    color: #2a3d66;                      /* Set text color */
-    font-size: 0.95rem;                  /* Smaller font for lists */
-    line-height: 1.6;                    /* Comfortable line spacing */
+    list-style-type: square;            
+    padding-left: 20px;                 
+    color: #2a3d66;                    
+    font-size: 0.95rem;                  
+    line-height: 1.6;                    
 }
 
 ul li {
-    margin-bottom: 5px;                  /* Space between list items */
+    margin-bottom: 5px;                  
 }
 
 /* Description List Styling Using Grid Layout */
 dl {
-    display: grid;                       /* Use grid layout for description lists */
-    grid-template-columns: auto 1fr;     /* Two columns: term and description */
-    gap: 10px 15px;                      /* Space between grid items */
-    align-items: start;                  /* Align items to start of the grid */
-    margin-bottom: 20px;                 /* Space below each description list */
+    display: grid;                      
+    grid-template-columns: auto 1fr;    
+    gap: 10px 15px;                      
+    align-items: start;                  
+    margin-bottom: 20px;                 
 }
 
 dt {
-    font-weight: bold;                   /* Bold terms for emphasis */
-    color: #2a3d66;                      /* Set color to match section headings */
+    font-weight: bold;                   
+    color: #2a3d66;                    
 }
 
 dd {
-    margin: 0;                           /* Remove default margin */
-    color: #555;                         /* Softer color for descriptions */
-    font-size: 0.95rem;                  /* Consistent font size with other lists */
+    margin: 0;                           
+    color: #555;                         
+    font-size: 0.95rem;                  
 }
 
 dt a {
-    color: #2a3d66;                      /* Set link color to match dt text color */
-    text-decoration: none;               /* Remove underline from links */
+    color: #2a3d66;                     
+    text-decoration: none;               
 }
 
 dt a:hover {
-    text-decoration: underline;          /* Add underline on hover for better interactivity */
+    text-decoration: underline;         
 }
 
 /* General Link Styling */
 a {
-    color: #1b75bc;                      /* Set the color for anchor text of links */
-    text-decoration: none;               /* Remove underline from the anchor text */
-    transition: color 0.3s, transform 0.3s; /* Smooth transition for hover effects */
+    color: #1b75bc;                     
+    text-decoration: none;               
+    transition: color 0.3s, transform 0.3s;
 }
 
 /* Hover State Styling */
 a:hover {
-    color: #ff6600;                      /* Change color on hover to differentiate */
-    text-decoration: underline;          /* Optionally add underline on hover */
-    transform: scale(1.05);              /* Slightly enlarge the link on hover for emphasis */
+    color: #ff6600;                      
+    text-decoration: underline;         
+    transform: scale(1.05);             
 }
 
 /* Three-Column Layout for Projects */
 .three-col {
-    display: grid;                       /* Use grid layout */
-    grid-template-columns: repeat(3, 1fr); /* Create three equal columns */
-    gap: 20px;                           /* Space between columns */
-    margin-top: 20px;                    /* Space above the grid */
+    display: grid;                       
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;                          
+    margin-top: 20px;                   
 }
 
 .project {
-    background-color: #f0f4f8;           /* Light background for each project */
-    padding: 15px;                       /* Padding inside each project box */
-    border: 1px solid #ddd;              /* Subtle border around each project */
-    border-radius: 8px;                  /* Rounded corners for a modern look */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    background-color: #f0f4f8;          
+    padding: 15px;                      
+    border: 1px solid #ddd;              
+    border-radius: 8px;                 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .project h3 {
-    margin-top: 0;                       /* Remove default margin from h3 */
-    color: #2a3d66;                      /* Set color to match section headings */
-    font-size: 1.2rem;                   /* Adjust font size */
+    margin-top: 0;                     
+    color: #2a3d66;                     
+    font-size: 1.2rem;                   
 }
 
 .project ul {
-    padding-left: 20px;                  /* Space for list items */
-    color: #333;                         /* Set text color */
-    font-size: 0.95rem;                  /* Adjust font size */
-    line-height: 1.6;                    /* Improve readability */
+    padding-left: 20px;                 
+    color: #333;                         
+    font-size: 0.95rem;                  
+    line-height: 1.6;                   
 }
 
 /* Three-Column Grid Layout for .three-col */
 .three-col {
-    display: grid;                       /* Use grid layout */
-    grid-template-columns: repeat(3, 1fr); /* Create three equal-width columns */
-    gap: 20px;                           /* Space between each card */
-    padding: 10px;                       /* Optional: padding inside the grid */
+    display: grid;                       
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;                           
+    padding: 10px;                     
 }
 
 /* Card Layout Styling */
 .card {
-    background-color: #ffffff;           /* White background for each card */
-    padding: 15px;                       /* Padding inside each card */
-    border: 1px solid #ddd;              /* Light border for subtle definition */
-    border-radius: 10px;                 /* Rounded corners for a modern look */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth and separation */
-    overflow: hidden;                    /* Ensures content does not overflow */
-    display: flex;                       /* Flex layout for the card */
-    flex-direction: column;              /* Stack elements vertically */
-    align-items: center;                 /* Center-aligns content */
-    transition: transform 0.3s, box-shadow 0.3s; /* Smooth transitions for hover effects */
-    text-align: center;                  /* Center text inside the card */
+    background-color: #ffffff;          
+    padding: 15px;                       
+    border: 1px solid #ddd;              
+    border-radius: 10px;                 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    overflow: hidden;                    
+    display: flex;                      
+    flex-direction: column;             
+    align-items: center;                 
+    transition: transform 0.3s, box-shadow 0.3s; 
+    text-align: center;                  
 }
 
 .card:hover {
-    transform: translateY(-5px);         /* Slight lift effect on hover */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover for emphasis */
+    transform: translateY(-5px);        
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
 }
 
 /* Container to manage image layout */
 .image-container {
-    width: 100%;                         /* Full width of the card */
-    height: 150px;                       /* Fixed height for consistent layout */
-    overflow: hidden;                    /* Hide overflow to avoid image stretching */
-    display: flex;                       /* Flexbox to center the image */
-    align-items: center;                 /* Center the image vertically */
-    justify-content: center;             /* Center the image horizontally */
+    width: 100%;                         
+    height: 150px;                      
+    overflow: hidden;                   
+    display: flex;                     
+    align-items: center;                
+    justify-content: center;             
 }
 
 /* Styling for project images */
 .project-image {
-    max-width: 100%;                     /* Max width to fit within the container */
-    height: 100%;                        /* Set height to fill the container */
-    object-fit: cover;                   /* Cover the container while maintaining aspect ratio */
-    border-radius: 8px;                  /* Rounded corners to match card style */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for subtle depth */
+    max-width: 100%;                   
+    height: 100%;                     
+    object-fit: cover;                  
+    border-radius: 8px;                 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 /* Center and arrange all content in a single column layout */
 .one-col {
-    display: flex;                       /* Use flexbox for layout */
-    flex-direction: column;              /* Stack items vertically */
-    align-items: center;                 /* Center-align items horizontally */
-    justify-content: center;             /* Center-align items vertically */
-    padding: 20px;                       /* Add padding around the container */
-    margin: 0 auto;                      /* Center the container horizontally */
-    max-width: 500px;                    /* Set a maximum width for the container */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a light shadow for visual separation */
-    background-color: #f9f9f9;           /* Light background color */
-    border-radius: 10px;                 /* Rounded corners */
-    min-height: 100vh;                   /* Ensure the container takes up the full viewport height */
+    display: flex;                      
+    flex-direction: column;          
+    align-items: center;               
+    justify-content: center;          
+    padding: 20px;                    
+    margin: 0 auto;                   
+    max-width: 500px;              
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: #f9f9f9;         
+    border-radius: 10px;              
+    min-height: 100vh;                  
 }
 
 /* Style for the form inside the one-col container */
 form {
-    width: 100%;                         /* Make the form take full width of the container */
-    display: flex;                       /* Use flex layout for form elements */
-    flex-direction: column;              /* Stack form elements vertically */
-    gap: 10px;                           /* Space between form elements */
+    width: 100%;                        
+    display: flex;                     
+    flex-direction: column;             
+    gap: 10px;                          
 }
 
 /* Style input elements: text, email, textarea */
 input[type="text"], 
 input[type="email"], 
 textarea {
-    width: 100%;                         /* Full width input fields */
-    padding: 10px;                       /* Padding inside the input fields */
-    margin-bottom: 10px;                 /* Space below each input */
-    border: 1px solid #ddd;              /* Light border for input fields */
-    border-radius: 5px;                  /* Rounded corners */
-    box-sizing: border-box;              /* Include padding in the width calculation */
-    font-size: 1rem;                     /* Standard font size for readability */
-    resize: vertical;                    /* Allow vertical resizing of textarea */
-    transition: border-color 0.3s;       /* Smooth transition for border changes */
+    width: 100%;                         
+    padding: 10px;                     
+    margin-bottom: 10px;                
+    border: 1px solid #ddd;             
+    border-radius: 5px;                  
+    box-sizing: border-box;              
+    font-size: 1rem;                    
+    resize: vertical;                    
+    transition: border-color 0.3s;      
 }
 
 input[type="text"]:focus, 
 input[type="email"]:focus, 
 textarea:focus {
-    border-color: #1b75bc;               /* Change border color on focus */
-    outline: none;                       /* Remove default focus outline */
+    border-color: #1b75bc;               
+    outline: none;                       
 }
 
 /* Style the submit button */
 input[type="submit"] {
-    padding: 10px 20px;                  /* Padding around the button text */
-    background-color: #1b75bc;           /* Button background color */
-    color: #fff;                         /* Text color for the button */
-    border: none;                        /* Remove default border */
-    border-radius: 5px;                  /* Rounded corners */
-    cursor: pointer;                     /* Pointer cursor on hover */
-    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
-    font-size: 1rem;                     /* Consistent font size */
+    padding: 10px 20px;                  
+    background-color: #1b75bc;          
+    color: #fff;                        
+    border: none;                       
+    border-radius: 5px;                 
+    cursor: pointer;                    
+    transition: background-color 0.3s, transform 0.3s;
+    font-size: 1rem;                    
 }
 
 input[type="submit"]:hover {
-    background-color: #155a8a;           /* Darker shade on hover */
+    background-color: #155a8a;          
     transform: translateY(-2px);         /* Slight lift effect on hover */
 }
